@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-ivweb",
+  "version": "0.0.1",
+  "description": "腾讯IVWEB团队eslint配置检测规范",
+  "license": "Apache-2.0",
+  "repository": "iv-web/eslint-config-ivweb",
+  "author": "IVWEB",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ivweb",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "eslint",
+    "validate",
+    "code style"
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
