@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ivweb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "腾讯IVWEB团队eslint配置检测规范",
   "license": "Apache-2.0",
   "repository": "iv-web/eslint-config-ivweb",
@@ -28,11 +28,13 @@
     "code style"
   ],
   "devDependencies": {
-    "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-import": "^2.7.0",
     "commitizen": "^2.3.0",
     "validate-commit-msg": "^2.11.1",
     "conventional-changelog-cli": "^1.2.0",
-    "husky": "^0.13.1"
+    "husky": "^0.13.1",
+    "eslint": "^4.1.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.1.1"
   }
 }
