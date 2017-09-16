@@ -40,6 +40,12 @@ To use IVWEB style in conjunction with ESLint's recommended rule set, extend the
 
 To see how the `ivweb` config compares with `eslint:recommended`, refer to the [source code of `index.js`](https://github.com/iv-web/eslint-config-ivweb/blob/master/index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `ivweb` config.
 
+## Contributing
+
+1. Check for open issues or open a fresh issue to start a discussion around a feature idea or a bug.
+2. Fork [the repository](https://github.com/iv-web/eslint-config-ivweb)_ on GitHub to start making your changes to the **master** branch (or branch off of it).
+3. Write a test which shows that the bug was fixed or that the feature works as expected.
+4. Send a pull request and bug the maintainer until it gets merged and published. :) Make sure to add yourself to [AUTHORS_](AUTHORS).
 
 ## License
 
