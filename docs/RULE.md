@@ -13,8 +13,14 @@
 | [array-callback-return](https://eslint.org/docs/rules/array-callback-return) | error | 对于数据相关操作函数比如reduce, map, filter等，callback必须有return |
 | [block-scoped-var](https://eslint.org/docs/rules/block-scoped-var) | error | 把var关键字看成块级作用域，防止变量提升导致的bug |
 | [class-methods-use-this](https://eslint.org/docs/rules/class-methods-use-this) | error | 要求在Class里面合理使用this，如果某个方法没有使用this,则应该申明为静态方法 |
-| [complexity][https://eslint.org/docs/rules/complexity] | off | 关闭代码复杂度限制 |
+| [complexity](https://eslint.org/docs/rules/complexity) | off | 关闭代码复杂度限制 |
 | [default-case](https://eslint.org/docs/rules/default-case) | error | switch case语句里面一定需要default分支 |
 | [no-alert](https://eslint.org/docs/rules/no-alert) | warn | 代码中使用了alert给出警告 |
 | [no-empty-function](https://eslint.org/docs/rules/no-empty-function) | error | 不允许使用空函数，除非在空函数里面给出注释说明 |
-| [no-eq-null](https://eslint.org/docs/rules/no-eq-null)| off | foo == null 用于判断 foo 不是 undefined 并且不是 null，比较常用，故允许此写法 |
+| [no-eq-null](https://eslint.org/docs/rules/no-eq-null)| off | foo == null 用于判断 foo 不是 undefined 并且不是 null，比较常用，故允许此写法|
+| [no-eval](https://eslint.org/docs/rules/no-eval)| error | 代码中不允许使用eval |
+| [no-extend-native](https://eslint.org/docs/rules/no-extend-native) | error | 禁止修改原生对象 |
+| [no-extra-bind](https://eslint.org/docs/rules/no-extra-bind) | error | 禁止出现没必要的 bind |
+| [no-floating-decimal](https://eslint.org/docs/rules/no-floating-decimal) | error | 表示小数时，禁止省略 0，比如 .5 |
+| [no-implicit-coercion](https://eslint.org/docs/rules/no-implicit-coercion) | off | 允许这些写法，性能上更好 |
+| [no-implicit-globals](https://eslint.org/docs/rules/no-implicit-globals) | error | 浏览器端不允许定义全局变量和全局函数，可以通过挂载到window对象上和使用IIFE表达式 |

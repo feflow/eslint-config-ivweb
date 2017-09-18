@@ -34,5 +34,17 @@ module.exports = {
         'no-empty-function': 2,
         // off; foo == null 用于判断 foo 不是 undefined 并且不是 null，比较常用，故允许此写法
         'no-eq-null': 0,
+        // error; 代码中不允许使用eval
+        'no-eval': 2,
+        // error; 禁止修改原生对象
+        'no-extend-native': 2,
+        // error; 禁止出现没必要的 bind
+        'no-extra-bind': 2,
+        // error; 表示小数时，禁止省略 0，比如 .5
+        'no-floating-decimal': 2,
+        // off; 允许这些写法，性能上更好
+        'no-implicit-coercion': 0,
+        // error; 浏览器端不允许定义全局变量和全局函数，可以通过挂载到window对象上和使用IIFE表达式
+        'no-implicit-globals': 2
     }
 };
