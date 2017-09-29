@@ -50,3 +50,5 @@
 | [radix](https://eslint.org/docs/rules/radix) | error | parseInt的时候第二个参数可以不传入，默认就是10进制 |
 | [require-await](https://eslint.org/docs/rules/require-await) | error | async函数里面必须有await |
 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top) | error | var变量定义没必要限制太严格 |
+| [no-undefined](https://eslint.org/docs/rules/no-undefined) | error | 进制将undefined当成标志符 |
+| [no-use-before-define]() | error | 变量使用之前必须进行定义 |

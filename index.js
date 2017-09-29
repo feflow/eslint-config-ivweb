@@ -112,5 +112,11 @@ module.exports = {
         'require-await': 2,
         // off; var变量定义没必要限制太严格
         'vars-on-top': 0,
+
+        /* section3: 变量 */
+        // error; 进制将undefined当成标志符
+        'no-undefined': 2,
+        // error; 变量使用之前必须进行定义
+        'no-use-before-define': 2
     }
 };
