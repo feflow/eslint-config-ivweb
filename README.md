@@ -1,7 +1,11 @@
 # eslint-config-ivweb
 
+[![npm package](https://img.shields.io/npm/v/eslint-config-ivweb.svg?style=flat-square)](https://www.npmjs.org/package/eslint-config-ivweb)
+[![NPM downloads](http://img.shields.io/npm/dt/eslint-config-ivweb.svg?style=flat-square)](https://npmjs.org/package/eslint-config-ivweb)
+
 ESLint shareable config for the IVWEB JavaScript style guide.
 
+[中文 README](README-zh_CN.md)
 
 ## Installation
 
