@@ -120,3 +120,17 @@
 | [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops) | error | 操作符左右必须有空格, const ret = 'hello' + 'world'|
 | [spaced-comment](https://eslint.org/docs/rules/spaced-comment) | off | 注释空格不限制 |
 | [switch-colon-spacing](https://eslint.org/docs/rules/switch-colon-spacing) | error | case 子句冒号前禁止有空格，冒号后必须有空格 |
+| [arrow-body-style](https://eslint.org/docs/rules/arrow-body-style) | off | 箭头函数返回值可以只是一个值，没必须一定用大括号写成多条语句. |
+| [arrow-parens](https://eslint.org/docs/rules/arrow-parens) | off | 箭头函数的参数必须用括号包裹起来，限制去掉。当只有一个参数时，没必要使用括号 |
+| [arrow-spacing](https://eslint.org/docs/rules/arrow-spacing) | error | 箭头函数的箭头前后必须有空格 |
+| [generator-star-spacing](https://eslint.org/docs/rules/generator-star-spacing) | error | generator 的 * 前面禁止有空格，后面必须有空格 |
+| [no-duplicate-imports](https://eslint.org/docs/rules/no-duplicate-imports) | error | 禁止import重复模块 |
+| [no-var](https://eslint.org/docs/rules/no-var) | error | 禁止采用var去定义变量，必须使用let或者const |
+| [prefer-arrow-callback](https://eslint.org/docs/rules/prefer-arrow-callback) | off | 禁止采用var去定义变量，必须使用let或者const |
+| [prefer-const](https://eslint.org/docs/rules/prefer-const) | error | 变量如果没有发生修改，则必须使用const进行命名 |
+| [prefer-destructuring](https://eslint.org/docs/rules/prefer-destructuring) | off | 强制使用结构的限制，不采纳 |
+| [prefer-template](https://eslint.org/docs/rules/prefer-template) | off | 不强制使用模板字符串，字符串拼接也是可取的 |
+| [rest-spread-spacing](https://eslint.org/docs/rules/rest-spread-spacing) | error | ... 的后面禁止有空格 |
+| [sort-imports](https://eslint.org/docs/rules/sort-imports) | off | import 排序不用限制|
+| [template-curly-spacing](https://eslint.org/docs/rules/template-curly-spacing) | error | 模板字符串内的首尾禁止有空格，比如${test}不要写成${ test } |
+| [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing) | error | yield* 后面必须加空格 |
