@@ -1,3 +1,15 @@
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/iv-web/eslint-config-ivweb/compare/v0.0.4...v0.1.0) (2017-10-02)
+
+
+### Features
+
+* add rules in stylistic ([3bba823](https://github.com/iv-web/eslint-config-ivweb/commit/3bba823))
+* add stylistic rules ([26034fa](https://github.com/iv-web/eslint-config-ivweb/commit/26034fa))
+* ES6 rules supported ([3275a23](https://github.com/iv-web/eslint-config-ivweb/commit/3275a23))
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/iv-web/eslint-config-ivweb/compare/v0.0.2...v0.0.4) (2017-09-29)
 
