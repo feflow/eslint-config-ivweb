@@ -114,9 +114,43 @@ module.exports = {
     'vars-on-top': 0,
 
     /* section3: 变量 */
-    // error; 进制将undefined当成标志符
+    // off; 变量定义时强制赋值或者强制先定义后赋值有点严格
+    'init-declarations': 0,
+    // error; 禁止label名称和var相同
+    'no-label-var': 2,
+    // error; 禁止将undefined当成标志符
     'no-undefined': 2,
+    // error; 禁止使用未定义的变量, typeof 后面的变量除外
+    'no-undef': [
+        2,
+        {
+            typeof: false
+        }
+    ],
     // error; 变量使用之前必须进行定义
-    'no-use-before-define': 2
+    'no-use-before-define': 2,
+
+    // section 4: 代码风格相关
+    // off; 数组前后括号必须换行的要求有点严格，不采纳
+    'array-bracket-newline': 0,
+    // error; 数组的括号前后禁止有空格
+    'array-bracket-spacing': [2, 'never'],
+    // off; 数组里面的元素强制换行有点严格，不采纳
+    'array-element-newline': 0,
+    // error; 代码块如果在一行，则大括号内的首尾必须有空格，比如 function (a, b) { retur a + b; }
+    'block-spacing': [
+      2,
+      'always'
+    ],
+    // error; 大括号的用法要求
+    'brace-style': 2,
+    // error; 变量命名需要以驼峰命名法，对属性字段不做限制
+    'camelcase': [2, {properties: 'never'}],
+    // off; 注释的首字母必须大写，对此不做限制
+    'capitalized-comments': 0,
+    // error; 默认不允许尾随逗号, ie8及以下浏览器会报错
+    'comma-dangle': 2,
+    // error; 逗号后面强制要求加空格
+    'comma-spacing': 2
   }
 };

@@ -50,5 +50,17 @@
 | [radix](https://eslint.org/docs/rules/radix) | error | parseInt的时候第二个参数可以不传入，默认就是10进制 |
 | [require-await](https://eslint.org/docs/rules/require-await) | error | async函数里面必须有await |
 | [vars-on-top](https://eslint.org/docs/rules/vars-on-top) | error | var变量定义没必要限制太严格 |
+| [init-declarations](https://eslint.org/docs/rules/init-declarations) | off | 变量定义时强制赋值或者强制先定义后赋值有点严格 |
+| [no-label-var](https://eslint.org/docs/rules/no-label-var) | error | 禁止label名称和var相同 |
 | [no-undefined](https://eslint.org/docs/rules/no-undefined) | error | 进制将undefined当成标志符 |
-| [no-use-before-define]() | error | 变量使用之前必须进行定义 |
+| [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define) | error | 变量使用之前必须进行定义 |
+| [no-undef](https://eslint.org/docs/rules/no-undef) | error | 禁止使用未定义的变量, typeof 后面的变量除外 |
+| [array-bracket-newline](https://eslint.org/docs/rules/array-bracket-newline) | off | 数组前后括号必须换行的要求有点严格，不采纳 |
+| [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing) | error | 数组的括号前后禁止有空格 |
+| [array-element-newline](https://eslint.org/docs/rules/array-element-newline) | off | 数组里面的元素强制换行有点严格，不采纳 |
+| [block-spacing](https://eslint.org/docs/rules/block-spacing) | off | 代码块如果在一行，则大括号内的首尾必须有空格，比如 function (a, b) { retur a + b; } |
+| [brace-style](https://eslint.org/docs/rules/brace-style) | error | 大括号的用法要求 |
+| [camelcase](https://eslint.org/docs/rules/camelcase) | error | 变量命名需要以驼峰命名法，对属性字段不做限制 |
+| [capitalized-comments](https://eslint.org/docs/rules/capitalized-comments) | off | 注释的首字母必须大写，对此不做限制 |
+| [comma-dangle](https://eslint.org/docs/rules/comma-dangle) | error | 默认不允许尾随逗号, ie8及以下浏览器会报错 |
+| [comma-spacing](https://eslint.org/docs/rules/comma-spacing) | error | 逗号后面强制要求加空格 |
