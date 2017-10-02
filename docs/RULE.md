@@ -64,3 +64,59 @@
 | [capitalized-comments](https://eslint.org/docs/rules/capitalized-comments) | off | 注释的首字母必须大写，对此不做限制 |
 | [comma-dangle](https://eslint.org/docs/rules/comma-dangle) | error | 默认不允许尾随逗号, ie8及以下浏览器会报错 |
 | [comma-spacing](https://eslint.org/docs/rules/comma-spacing) | error | 逗号后面强制要求加空格 |
+| [comma-style](https://eslint.org/docs/rules/comma-style) | error | 逗号必须写在最后面 |
+| [func-call-spacing](https://eslint.org/docs/rules/func-call-spacing) | error | 函数名和执行它的括号之间禁止有空格 |
+| [func-name-matching](https://eslint.org/docs/rules/func-name-matching) | error | 函数赋值给变量时，函数名必须和赋值的变量名一致的限制不采纳 |
+| [func-names](https://eslint.org/docs/rules/func-names) | off | 不限制匿名函数的命名问题 |
+| [func-style](https://eslint.org/docs/rules/func-style) | off | 必须只使用函数申明或只使用函数表达式 |
+| [id-blacklist](https://eslint.org/docs/rules/id-blacklist) | off | 变量黑名单，不采纳 |
+| [id-length](https://eslint.org/docs/rules/id-length) | off | 变量命名长度不做限制 |
+| [id-match](https://eslint.org/docs/rules/id-match) | off | 变量命令的字符需要在某个正则匹配规则里面，不采纳 |
+| [indent](https://eslint.org/docs/rules/indent) | error | 一个缩进必须用四个空格替代, switch语句里面的case 2个空格 |
+| [jsx-quotes](https://eslint.org/docs/rules/jsx-quotes) | error | jsx 中的属性必须用双引号 |
+| [key-spacing](https://eslint.org/docs/rules/key-spacing) | error | 对象字面量中冒号前面禁止有空格，后面必须有空格 |
+| [keyword-spacing](https://eslint.org/docs/rules/keyword-spacing) | error | 关键字前后必须要加上空格 |
+| [line-comment-position](https://eslint.org/docs/rules/line-comment-position) | off | 注释的位置不进行限制 |
+| [linebreak-style](https://eslint.org/docs/rules/linebreak-style) | off | 对换行符不限制 |
+| [lines-around-comment](https://eslint.org/docs/rules/lines-around-comment) | off | 注释前后必须有空行的限制，不采纳 |
+| [max-depth](https://eslint.org/docs/rules/max-depth) | error | 代码块嵌套的深度禁止超过 5 层 |
+| [max-len](https://eslint.org/docs/rules/max-len) | error | 单行最多允许80个字符, 对包含url的行不进行此限制 |
+| [max-lines](https://eslint.org/docs/rules/max-lines) | off | 某个文件能够放置的最大代码行数，不限制 |
+| [max-nested-callbacks](https://eslint.org/docs/rules/max-nested-callbacks) | error | 回调函数嵌套禁止超过 3 层，多了请用 async await 替代 |
+| [max-params](https://eslint.org/docs/rules/max-params) | error | 函数的参数禁止超过 10 个 |
+| [max-statements](https://eslint.org/docs/rules/max-statements) | off | 一个函数块里面的语句行数的限制，不采纳 |
+| [max-statements-per-line](https://eslint.org/docs/rules/max-statements-per-line) | off | 一行中的语句数量 |
+| [multiline-ternary](https://eslint.org/docs/rules/multiline-ternary) | off | 三目元算语句换行限制，不采纳 |
+| [new-cap](https://eslint.org/docs/rules/new-cap) | error | 构造函数的必须以大写字母开头 |
+| [new-parens](https://eslint.org/docs/rules/new-parens) | error | new 后面类必须带上括号 |
+| [newline-per-chained-call](https://eslint.org/docs/rules/newline-per-chained-call) | off | 链式调用必须换行的限制，不采纳 |
+| [no-array-constructor](https://eslint.org/docs/rules/no-array-constructor) | error | 禁止使用 Array 构造函数 |
+| [no-bitwise](https://eslint.org/docs/rules/no-bitwise) | off | 位操作，不进行限制 |
+| [no-continue](https://eslint.org/docs/rules/no-continue) | off | continue语句的使用，不限制 |
+| [no-inline-comments](https://eslint.org/docs/rules/no-inline-comments) | off | 内联注释不限制 |
+| [no-lonely-if](https://eslint.org/docs/rules/no-lonely-if) | off | 允许单独使用if语句，而不配套使用else、else if等 |
+| [no-mixed-spaces-and-tabs](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs) | error | 禁止混用空格和缩进 |
+| [no-multi-assign](https://eslint.org/docs/rules/no-multi-assign) | off | 连续赋值比如 a = b = c = 4; 不限制 |
+| [no-multiple-empty-lines](https://eslint.org/docs/rules/no-multiple-empty-lines) | off | 连续空行，不限制 |
+| [no-negated-condition](https://eslint.org/docs/rules/no-negated-condition) | off | if里面不允许出现否定表达式， 不采纳 |
+| [no-nested-ternary](https://eslint.org/docs/rules/no-nested-ternary) | off | 允许三元表达式的嵌套使用 |
+| [no-new-object](https://eslint.org/docs/rules/no-new-object) | error | 禁止直接 new Object |
+| [no-plusplus](https://eslint.org/docs/rules/no-plusplus) | off | 允许使用 ++ 或 -- |
+| [no-ternary](https://eslint.org/docs/rules/no-ternary) | off | 允许使用三元表达式 |
+| [no-trailing-spaces](https://eslint.org/docs/rules/no-trailing-spaces) | error | 禁止行尾部有空格 |
+| [no-underscore-dangle](https://eslint.org/docs/rules/no-underscore-dangle) | off | 允许变量名中出现下划线 |
+| [no-whitespace-before-property](https://eslint.org/docs/rules/no-whitespace-before-property) | error | 禁止属性前有空格，比如 foo. bar() |
+| [object-curly-newline](https://eslint.org/docs/rules/object-curly-newline) | error | 大括号内的首尾必须有换行 |
+| [object-property-newline](https://eslint.org/docs/rules/object-curly-spacing) | off | 对象字面量内的属性每行必须只有一个，不采纳 |
+| [one-var](https://eslint.org/docs/rules/one-var) | error | 声明变量时，禁止一条语句声明多个变量 |
+| [one-var-declaration-per-line](https://eslint.org/docs/rules/one-var-declaration-per-line) | error | 变量申明必须每行一个 |
+| [quotes](https://eslint.org/docs/rules/quotes) | error | 必须使用单引号 |
+| [semi](https://eslint.org/docs/rules/semi) | error | 结尾必须有分号 |
+| [semi-spacing](https://eslint.org/docs/rules/semi-spacing) | error | 一行有多个语句时，分号前面禁止有空格，分号后面必须有空格 |
+| [semi-style](https://eslint.org/docs/rules/semi-style) | error | 分号必须写在行尾，禁止在行首出现 |
+| [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks) | error | if, function 等的大括号之前必须要有空格 |
+| [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren) | error | function 的小括号前面必须有空格 |
+| [space-in-parens](https://eslint.org/docs/rules/space-in-parens) | error | 小括号内的首尾禁止有空格 |
+| [space-infix-ops](https://eslint.org/docs/rules/space-infix-ops) | error | 操作符左右必须有空格, const ret = 'hello' + 'world'|
+| [spaced-comment](https://eslint.org/docs/rules/spaced-comment) | off | 注释空格不限制 |
+| [switch-colon-spacing](https://eslint.org/docs/rules/switch-colon-spacing) | error | case 子句冒号前禁止有空格，冒号后必须有空格 |
