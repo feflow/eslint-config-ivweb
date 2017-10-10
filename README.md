@@ -13,6 +13,8 @@ ESLint shareable config for the IVWEB JavaScript style guide.
 $ npm install --save-dev eslint eslint-config-ivweb
 ```
 
+## Documents
+* Rules explanation: [RULES.md](docs/RULE.md)
 
 ## Usage
 
