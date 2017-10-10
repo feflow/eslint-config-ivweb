@@ -12,6 +12,10 @@ eslint-config-ivweb
 $ npm install --save-dev eslint eslint-config-ivweb
 ```
 
+## 文档
+
+* [规则解释](docs/RULE.md)
+
 ## 使用
 一旦`eslint-config-ivweb`安装成功，你可以通过[ESLint配置文件]((http://eslint.org/docs/user-guide/configuring)) 中的字段extends中使用它
 
