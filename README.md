@@ -14,6 +14,7 @@ $ npm install --save-dev eslint eslint-config-ivweb
 ```
 
 ## Documents
+* Introduction: [eslint-standard.md](docs/eslint-standard.md)
 * Rules explanation: [RULES.md](docs/RULE.md)
 
 ## Usage

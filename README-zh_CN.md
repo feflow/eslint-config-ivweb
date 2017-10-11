@@ -13,7 +13,7 @@ $ npm install --save-dev eslint eslint-config-ivweb
 ```
 
 ## 文档
-
+* [介绍](docs/eslint-standard.md)
 * [规则解释](docs/RULE.md)
 
 ## 使用
