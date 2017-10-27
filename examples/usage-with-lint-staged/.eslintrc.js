@@ -4,7 +4,6 @@ module.exports = {
         "browser": true,
         "node": true
     },
-    {
     "parserOptions": {
         "sourceType": "module"
     },
