@@ -327,7 +327,7 @@ module.exports = {
     'space-infix-ops': 2,
     // off; 注释空格不限制
     'spaced-comment': 0,
-    // off; case 子句冒号前禁止有空格，冒号后必须有空格
+    // error; case 子句冒号前禁止有空格，冒号后必须有空格
     'switch-colon-spacing': [
       2,
       {
