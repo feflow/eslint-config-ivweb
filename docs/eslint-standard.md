@@ -36,6 +36,9 @@ module.exports = {
         "browser": true,
         "node": true
     },
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "extends": ["eslint:recommended", "ivweb"],
     "globals": {
         "__inline": true,
