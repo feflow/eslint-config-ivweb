@@ -9,7 +9,7 @@ eslint-config-ivweb
 ## 安装
 
 ```
-$ npm install --save-dev eslint eslint-config-ivweb
+$ npm install --save-dev eslint eslint-plugin-react eslint-config-ivweb
 ```
 
 ## 文档
@@ -35,7 +35,7 @@ $ npm install --save-dev eslint eslint-config-ivweb
 
 ```js
 {
-  "extends": ["eslint:recommended", "ivweb"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
   "rules": {
     // Additional, per-project rules...
   }

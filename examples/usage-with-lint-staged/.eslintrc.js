@@ -1,4 +1,7 @@
 module.exports = {
+    "plugins": [
+        "react"
+    ],
     "env": {
         "es6": true,
         "browser": true,
@@ -7,7 +10,7 @@ module.exports = {
     "parserOptions": {
         "sourceType": "module"
     },
-    "extends": ["eslint:recommended", "ivweb"],
+    "extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
     "globals": {
         "__inline": true,
         "IS_SERVER": true,

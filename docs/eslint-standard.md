@@ -31,6 +31,9 @@
 
 ``` javascript
 module.exports = {
+    "plugins": [
+        "react"
+    ],
     "env": {
         "es6": true,
         "browser": true,
@@ -39,7 +42,7 @@ module.exports = {
     "parserOptions": {
         "sourceType": "module"
     },
-    "extends": ["eslint:recommended", "ivweb"],
+    "extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
     "globals": {
         "__inline": true,
         "IS_SERVER": true,
@@ -71,6 +74,7 @@ module.exports = {
   },
   "devDependencies": {
     "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0",
     "eslint-config-ivweb": "^0.1.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.2.3"

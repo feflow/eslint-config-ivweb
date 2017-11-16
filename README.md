@@ -10,7 +10,7 @@ ESLint shareable config for the IVWEB JavaScript style guide.
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-ivweb
+$ npm install --save-dev eslint eslint-plugin-react eslint-config-ivweb
 ```
 
 ## Documents
@@ -38,7 +38,7 @@ To use IVWEB style in conjunction with ESLint's recommended rule set, extend the
 
 ```js
 {
-  "extends": ["eslint:recommended", "ivweb"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
   "rules": {
     // Additional, per-project rules...
   }
