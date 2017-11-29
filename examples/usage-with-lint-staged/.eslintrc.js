@@ -8,7 +8,11 @@ module.exports = {
         "node": true
     },
     "parserOptions": {
-        "sourceType": "module"
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
     },
     "extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
     "globals": {
