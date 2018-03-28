@@ -1,3 +1,19 @@
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.0...v0.1.1) (2018-03-28)
+
+
+### Bug Fixes
+
+* update demo, parsing error: 'import' and 'export' may appear only with 'sourceType: module' ([0ae9617](https://github.com/iv-web/eslint-config-ivweb/commit/0ae9617))
+
+
+### Features
+
+* update example ([76dbfb0](https://github.com/iv-web/eslint-config-ivweb/commit/76dbfb0))
+* 修改配置 ([3c864c6](https://github.com/iv-web/eslint-config-ivweb/commit/3c864c6))
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/iv-web/eslint-config-ivweb/compare/v0.0.4...v0.1.0) (2017-10-02)
 
