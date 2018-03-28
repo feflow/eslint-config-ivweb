@@ -25,16 +25,16 @@ module.exports = {
     'array-callback-return': 2,
     // error; 把var关键字看成块级作用域，防止变量提升导致的bug
     'block-scoped-var': 2,
-    // error; 要求在Class里面合理使用this，如果某个方法没有使用this,则应该申明为静态方法
-    'class-methods-use-this': 2,
+    // off; 要求在Class里面合理使用this，如果某个方法没有使用this,则应该申明为静态方法
+    'class-methods-use-this': 0,
     // off; 关闭代码复杂度限制
     'complexity': 0,
     // error; switch case语句里面一定需要default分支
     'default-case': 2,
     // warn: 代码中使用了alert给出警告
     'no-alert': 1,
-    // error; 不允许使用空函数，除非在空函数里面给出注释说明
-    'no-empty-function': 2,
+    // off; 不允许使用空函数，除非在空函数里面给出注释说明
+    'no-empty-function': 0,
     // off; foo == null 用于判断 foo 不是 undefined 并且不是 null，比较常用，故允许此写法
     'no-eq-null': 0,
     // error; 代码中不允许使用eval
@@ -144,8 +144,8 @@ module.exports = {
     ],
     // error; 大括号的用法要求
     'brace-style': 2,
-    // error; 变量命名需要以驼峰命名法，对属性字段不做限制
-    'camelcase': [2, {properties: 'never'}],
+    // off; 变量命名需要以驼峰命名法，对属性字段不做限制
+    'camelcase': [0, {properties: 'never'}],
     // off; 注释的首字母必须大写，对此不做限制
     'capitalized-comments': 0,
     // error; 默认不允许尾随逗号, ie8及以下浏览器会报错
@@ -212,9 +212,9 @@ module.exports = {
         2,
         5
     ],
-    // error; 单行最多允许80个字符, 对包含url的行不进行此限制
+    // error; 单行最多允许200个字符, 对包含url的行不进行此限制
     'max-len': [2, {
-      code: 80,
+      code: 150,
       tabWidth: 2,
       ignoreUrls: true
     }],
@@ -282,8 +282,8 @@ module.exports = {
     ],
     // off; 对象字面量内的属性每行必须只有一个，不采纳
     'object-property-newline': 0,
-    // error; 声明变量时，禁止一条语句声明多个变量
-    'one-var': [2, {
+    // off; 声明变量时，禁止一条语句声明多个变量
+    'one-var': [0, {
       var: 'never',
       let: 'never',
       const: 'never',
@@ -327,7 +327,7 @@ module.exports = {
     'space-infix-ops': 2,
     // off; 注释空格不限制
     'spaced-comment': 0,
-    // error; case 子句冒号前禁止有空格，冒号后必须有空格
+    // off; case 子句冒号前禁止有空格，冒号后必须有空格
     'switch-colon-spacing': [
       2,
       {
@@ -376,6 +376,7 @@ module.exports = {
     // error; 模板字符串内的首尾禁止有空格，比如${test}不要写成${ test }
     'template-curly-spacing': [2, 'never'],
     // error; yield* 后面必须加空格
-    'yield-star-spacing': [2, 'after']
+    'yield-star-spacing': [2, 'after'],
+    "react/prop-types": 0
   }
 };
