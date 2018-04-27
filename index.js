@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  extends: ["./eslint-config-react/index.js"],
   rules: {
     /* section1 : 可能存在的错误 */
     // error; for循转方向出错

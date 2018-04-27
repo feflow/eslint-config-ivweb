@@ -28,11 +28,13 @@
     "code style"
   ],
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "commitizen": "^2.3.0",
-    "validate-commit-msg": "^2.11.1",
     "conventional-changelog-cli": "^1.2.0",
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "^7.7.0",
     "husky": "^0.13.1",
-    "eslint": "^4.1.1"
+    "validate-commit-msg": "^2.11.1"
   },
   "peerDependencies": {
     "eslint": ">=4.1.1"
