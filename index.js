@@ -375,7 +375,8 @@ module.exports = {
     // off; import 的排序不用限制
     'sort-imports': 0,
     // error; 模板字符串内的首尾禁止有空格，比如${test}不要写成${ test }
-    'template-curly-spacing': [2, 'never'],
+    // TODO: 当jsx代码里有xxProp={``}会导致eslint出错奔溃，先注释
+    // 'template-curly-spacing': [2, 'never'],
     // error; yield* 后面必须加空格
     'yield-star-spacing': [2, 'after'],
     "react/prop-types": 0
