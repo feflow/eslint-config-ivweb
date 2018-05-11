@@ -1,5 +1,5 @@
-<a name="0.1.1"></a>
-## [0.1.1](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.0...v0.1.1) (2018-03-28)
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.0...v0.1.2) (2018-05-11)
 
 
 ### Bug Fixes
@@ -9,6 +9,8 @@
 
 ### Features
 
+* support react config ([03b09c0](https://github.com/iv-web/eslint-config-ivweb/commit/03b09c0))
+* update config ([c50b596](https://github.com/iv-web/eslint-config-ivweb/commit/c50b596))
 * update example ([76dbfb0](https://github.com/iv-web/eslint-config-ivweb/commit/76dbfb0))
 * 修改配置 ([3c864c6](https://github.com/iv-web/eslint-config-ivweb/commit/3c864c6))
 
