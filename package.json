@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ivweb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "腾讯IVWEB团队eslint配置检测规范",
   "license": "Apache-2.0",
   "repository": "iv-web/eslint-config-ivweb",
