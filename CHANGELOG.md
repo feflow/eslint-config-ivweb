@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.2...v0.1.3) (2018-07-18)
+
+
+### Bug Fixes
+
+* eslint-plugin-react dependices. ([92173bd](https://github.com/iv-web/eslint-config-ivweb/commit/92173bd))
+
+
+
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.0...v0.1.2) (2018-05-11)
 
