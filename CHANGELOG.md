@@ -1,3 +1,18 @@
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.4...v0.1.5) (2018-11-13)
+
+
+### Bug Fixes
+
+* 函数名前面不需要加上空格 ([88ac283](https://github.com/iv-web/eslint-config-ivweb/commit/88ac283)), closes [#5](https://github.com/iv-web/eslint-config-ivweb/issues/5)
+
+
+
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.3...v0.1.4) (2018-07-18)
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/iv-web/eslint-config-ivweb/compare/v0.1.2...v0.1.3) (2018-07-18)
 
