@@ -319,7 +319,7 @@ module.exports = {
     // error; function 的小括号前面必须有空格
     'space-before-function-paren': [2, {
       'anonymous': 'always',
-      'named': 'always',
+      'named': 'never',
       'asyncArrow': 'always'
     }],
     // error; 小括号内的首尾禁止有空格
